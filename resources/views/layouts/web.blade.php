@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/x-icon" href="{{ asset('images/icon.png') }}">
-  {{-- <meta name="google-site-verification" content="fIU0V-iVYf5UkfMBN3RVujL6d6pkVFHtORPCX13x32U" /> --}}
+  <meta name="google-site-verification" content="oA8XCVhz6MqSFt41p1LzPhNpR-Gbxc9yyrq0tCwmzMQ" />
   @yield('meta')
 
   <title>{{ config('app.name') }}</title>
