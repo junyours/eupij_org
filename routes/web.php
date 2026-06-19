@@ -15,6 +15,7 @@ Route::middleware(['auth'])->group(function () {
   Route::post('/admin/editorial-board/add', [EditorialBoard::class, 'add'])->name('admin.editorial-board.add');
   Route::get('/admin/editorial-board/edit/{id}', [EditorialBoard::class, 'edit'])->name('admin.editorial-board.edit');
   Route::post('/admin/editorial-board/update/{id}', [EditorialBoard::class, 'update'])->name('admin.editorial-board.update');
+  Route::post('/admin/editorial-board/delete/{id}', [EditorialBoard::class, 'delete'])->name('admin.editorial-board.delete');
 
   Route::get('/admin/archive', [ArchiveController::class, 'index'])->name('admin.archive');
   Route::get('/admin/archive/create', [ArchiveController::class, 'create'])->name('admin.archive.create');

@@ -153,4 +153,20 @@ class EditorialBoard extends Controller
 
         return redirect()->back()->with('success', 'Editor updated successfully!');
     }
+
+    public function delete($id)
+    {
+        $accessToken = $this->token();
+
+        $editor = User::findOrFail($id);
+
+        if ($editor->profile_picture) {
+            Http::withToken($accessToken)
+                ->delete("https://www.googleapis.com/drive/v3/files/{$editor->profile_picture}");
+        }
+
+        $editor->delete();
+
+        return redirect()->back()->with('success', 'Editor deleted successfully!');
+    }
 }

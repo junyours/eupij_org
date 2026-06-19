@@ -39,6 +39,15 @@
                   <button type="button"
                     class="whitespace-nowrap rounded-sm bg-transparent p-0.5 font-semibold text-black outline-black hover:opacity-75 focus-visible:outline-2 focus-visible:outline-offset-2 active:opacity-100 active:outline-offset-0">Edit</button>
                 </a>
+                <form action="{{ route('admin.editorial-board.delete', $editor->id) }}" method="POST"
+                  onsubmit="return confirm('Are you sure you want to delete this editor?')">
+                  @csrf
+                  @method('POST')
+                  <button type="submit"
+                    class="whitespace-nowrap rounded-sm bg-transparent p-0.5 font-semibold text-red-600 outline-red-600 hover:opacity-75 focus-visible:outline-2 focus-visible:outline-offset-2 active:opacity-100 active:outline-offset-0">
+                    Delete
+                  </button>
+                </form>
               </td>
             </tr>
           @endforeach
