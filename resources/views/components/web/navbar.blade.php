@@ -36,15 +36,13 @@
         </div>
         <div class="flex items-center gap-2">
           <i data-lucide="phone" class="size-5 text-[#14b321]" stroke-width="1.5"></i>
-          <a href="tel:+639171281320" target="_blank" class="font-semibold hover:text-[#14b321]">+63 917 128 1320</a>
+          <a href="tel:(632)88024421" target="_blank" class="font-semibold hover:text-[#14b321]">(632) 8 802 4421</a>
         </div>
         <div class="flex items-center gap-2">
           <i data-lucide="map-pin" class="size-5 text-[#14b321]" stroke-width="1.5"></i>
-          <a href="https://maps.app.goo.gl/WLB5KaEyTygUozGJ9" target="_blank"
-            class="font-semibold hover:text-[#14b321]">Metro
-            Square R118
-            Zone 2, Iponan,
-            CDO City</a>
+          <a href="https://maps.app.goo.gl/pspyxPWA56Du1jof7" target="_blank"
+            class="font-semibold hover:text-[#14b321]">Unit 2404 Discovery Suites, ADB Avenue, Ortigas Center, Pasig
+            City, 1600, Philippines</a>
         </div>
       </div>
     </div>

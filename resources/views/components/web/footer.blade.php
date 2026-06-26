@@ -25,7 +25,10 @@
               <a href="mailto:journal@eupij.com" target="_blank" class="hover:underline">journal@eupij.com</a>
             </li>
             <li class="mb-4">
-              <a href="tel:+639171281320" target="_blank" class="hover:underline">+63 917 128 1320</a>
+              <a href="mailto:national@piep.org" target="_blank" class="hover:underline">national@piep.org</a>
+            </li>
+            <li class="mb-4">
+              <a href="tel:(632)88024421" target="_blank" class="hover:underline">(632) 8 802 4421</a>
             </li>
           </ul>
         </div>
@@ -44,8 +47,9 @@
     </div>
     <hr class="my-6 border-slate-300 sm:mx-auto lg:my-8" />
     <div class="sm:flex sm:items-center sm:justify-between font-medium">
-      <span class="text-sm text-slate-600 sm:text-center">© {{ date('Y') }} <a href="https://ditadsresearchcenter.com/"
-          class="hover:underline">Zas Digital Institute Training and Development Services</a>. All Rights Reserved.
+      <span class="text-sm text-slate-600 sm:text-center">© {{ date('Y') }} <a href="#"
+          class="hover:underline">Environmental and Urban
+        Planning International Journal</a>. All Rights Reserved.
       </span>
       <div class="flex mt-4 sm:justify-center sm:mt-0">
         <a href="#" class="text-slate-600 hover:text-slate-800">
