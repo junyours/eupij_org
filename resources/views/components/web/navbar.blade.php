@@ -89,7 +89,7 @@
           @endif
         @endforeach
       </ul>
-      <a href="mailto:ditads@infosheet.dev" target="_blank">
+      <a href="mailto:journal@eupij.com" target="_blank">
         <button type="button"
           class="whitespace-nowrap rounded-md bg-[#14b321] border border-[#14b321] px-4 py-2 font-semibold tracking-wide text-neutral-100 transition hover:opacity-75 text-center focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#14b321] active:opacity-100 active:outline-offset-0 disabled:opacity-75 disabled:cursor-not-allowed">Submit
           Paper</button>
